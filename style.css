@@ -176,13 +176,31 @@ body{
     color: var(--cor-primaria)
 }
 
+.rodape__1{
+    background-color: var(--cor-secundaria);
+    padding: 8px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'Luckiest Guy', cor-secundariarsive;
+    color: var(--cor-primaria)
+}
+
+.rodape__2{
+    background-color: var(--cor-secundaria);
+    padding: 8px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'Luckiest Guy', cor-secundariarsive;
+    color: var(--cor-primaria)
+}
+
 @media (max-width: 1200px){
     .cabecalho_{
-        padding: 6%;
+        padding: 20%;
     }
     .cabecalho__links{
         justify-content: center;
-       
+        padding: 3%;
     }
 
     .conteudo__texto{
@@ -195,9 +213,22 @@ body{
     .conteudo{
         display: flex;
         flex-direction: column-reverse;
+        gap: 25px;
     }
-    .video{
-        width: 80%;
+    .imagem{
+        width: 70%;
+    }
+    .visual__video{
+        width: 70%;
+    }
+    .rodape{
+        margin-top: 160%;
+    }
+    .rodape__1{
+        margin-top: 160%;
+    }
+    .rodape__2{
+        margin-top: 195%;
     }
 }
     
