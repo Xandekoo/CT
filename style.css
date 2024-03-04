@@ -202,7 +202,6 @@ body{
         justify-content: center;
         padding: 3%;
     }
-
     .conteudo__texto{
         width: 100%;
         height: 200px;
@@ -214,6 +213,9 @@ body{
         display: flex;
         flex-direction: column-reverse;
         gap: 25px;
+    }
+    .conteudo__texto__botoes__inscricao{
+        padding: 1.5rem 0;
     }
     .imagem{
         width: 70%;
