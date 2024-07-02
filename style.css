@@ -10,11 +10,11 @@
     --cor-secundaria:#113552;
     --cor-terciaria:#a82424;
     --cor-quartenaria: #DEDFF9;
-    --cor-texto:#010101;
+    --cor-texto:#2b2261;
 }
 
 .cabecalho{
-    padding: 0.25% 0% 0.25% 8%;
+    padding: 0.25% 10% 0.25% 8%;
     background-color: var(--cor-secundaria);
     display: flex;
     gap: 60%;
@@ -41,9 +41,13 @@
 }
 
 body{
-    background-image: url(Group\ 1.png);
+    background-image: url(Group\ 2.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -122,13 +126,7 @@ table {
     text-align: center;
   }
   
-.coluna1{
-    background-color: #bebebe;
-  }
 
-.linha1{
-    background-color: #bebebe;
-  }
   
   tfoot th {
     text-align: right;
@@ -154,7 +152,7 @@ table {
     text-decoration: none;
     border: 3px solid var(--cor-secundaria);
     border-radius: 15px;
-    background-color: #e2e2e2;
+    background-color: #e2e2e293;
     font-size: 1.5rem;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
@@ -168,7 +166,7 @@ table {
     text-decoration: none;
     border: 3px solid var(--cor-secundaria);
     border-radius: 15px;
-    background-color: #e2e2e2;
+    background-color: #e2e2e293;
     font-size: 2rem;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
@@ -180,7 +178,7 @@ table {
     text-decoration: none;
     border: 3px solid var(--cor-secundaria);
     border-radius: 16px;
-    background-color: #bebebe;
+    background-color: #919191;
 }
 
 .conteudo__texto__botoes__inscricao:hover{
@@ -189,7 +187,7 @@ table {
     text-decoration: none;
     border: 3px solid var(--cor-secundaria);
     border-radius: 16px;
-    background-color: #bebebe;
+    background-color: #919191;
 }
 
 .visual{
@@ -203,9 +201,11 @@ table {
 }
 
 .visual__video{
+    padding: 0.25%;
+    background-color: rgba(3, 0, 29, 0.959);
     border-radius: 15%;
     width: 35%;
-    height: 50%;
+    height: 40%;
     justify-self: center;
 }
 
@@ -217,6 +217,8 @@ table {
 
 .imagem{
     border-radius: 20%;
+    background-color: #2b2261;
+    padding: 0.25%;
 }
 
 .rodape{
@@ -225,7 +227,8 @@ table {
     text-align: center;
     font-size: 1.25rem;
     font-family: 'Luckiest Guy', cor-secundariarsive;
-    color: var(--cor-primaria)
+    color: var(--cor-primaria);
+    margin-top: auto;
 }
 
 .rodape__1{
@@ -234,7 +237,8 @@ table {
     text-align: center;
     font-size: 1.25rem;
     font-family: 'Luckiest Guy', cor-secundariarsive;
-    color: var(--cor-primaria)
+    color: var(--cor-primaria);
+    margin-top: auto;
 }
 
 .rodape__2{
@@ -243,16 +247,24 @@ table {
     text-align: center;
     font-size: 1.25rem;
     font-family: 'Luckiest Guy', cor-secundariarsive;
-    color: var(--cor-primaria)
+    color: var(--cor-primaria);
+    margin-top: auto;
 }
 
 @media (max-width: 1200px){
-    .cabecalho_{
-        padding: 20%;
+    .cabecalho{
+        padding: 0.25% 10% 0.25% 8%;
+        display: flex;
+        gap: 12%;
+        justify-content: center;
+    }
+    .cabecalho__simbolo{
+        width: 13%;;
     }
     .cabecalho__links{
         justify-content: center;
-        padding: 3%;
+        padding: 2%;
+        font-size: 1rem;
     }
     .conteudo__texto{
         width: 100%;
@@ -270,19 +282,19 @@ table {
         padding: 1.5    rem 0;
     }
     .imagem{
-        width: 70%;
+        width: 50%;
     }
     .visual__video{
-        width: 70%;
+        width: 50%;
     }
     .rodape{
-        margin-top: 175%;
+        margin-top: 150%;
     }
     .rodape__1{
-        margin-top: 160%;
+        margin-top: auto;
     }
     .rodape__2{
-        margin-top: 250%;
+        margin-top: auto;
     }
 }
     

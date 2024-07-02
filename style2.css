@@ -134,7 +134,8 @@ body{
     text-align: center;
     font-size: 1.25rem;
     font-family: 'Luckiest Guy', cor-secundariarsive;
-    color: var(--cor-primaria)
+    color: var(--cor-primaria);
+    margin-top: auto;
 }
 
 @media (max-width: 1200px){
