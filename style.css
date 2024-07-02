@@ -252,6 +252,11 @@ table {
 }
 
 @media (max-width: 1200px){
+    body{
+        background-image: url(espada.png);
+        background-size: 100%;
+
+    }
     .cabecalho{
         padding: 0.25% 10% 0.25% 8%;
         display: flex;
